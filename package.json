@@ -1,0 +1,24 @@
+{
+  "name": "stellarbio",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "react": "0.12.2",
+    "jquery": "2.1.3",
+    "moment": "2.9.0",
+    "underscore": "1.8.3",
+    "bootstrap": "3.3.5"
+  },
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "browserify": "9.0.3",
+    "reactify": "1.0.0",
+    "uglifyify": "3.0.1",
+    "vinyl-source-stream": "1.1.0",
+    "del": "1.1.1"
+  },
+  "scripts": {
+    "dev": "./node_modules/gulp/bin/gulp.js"
+  }
+}
